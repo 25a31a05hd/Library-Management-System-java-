@@ -1,0 +1,37 @@
+Project Flowchart
+START
+
+Connect to Database
+
+Display Dashboard
+
+Select Operation
+
+Book Management
+
+Add / Update / Delete / Search
+
+
+Student Management
+
+Register / Update / Delete
+
+
+Issue Book
+
+Check availability and issue
+
+
+Return Book
+
+Update status and stock
+
+
+
+Update Database
+
+Refresh Dashboard
+
+Continue or Exit
+
+STOP
