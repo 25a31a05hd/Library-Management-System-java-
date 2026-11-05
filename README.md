@@ -118,7 +118,7 @@ This project is developed as an academic and practical learning project to demon
 
 ## 👩‍💻 Author
 
-**Your Name**
+YAMUNA BHAGYA LAKSHMI PALEPU
 
 B.Tech – Computer Science and Engineering
 
