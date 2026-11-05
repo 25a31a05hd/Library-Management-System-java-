@@ -1,0 +1,139 @@
+# LIBRARY MANAGEMENT SYSTEM USING JAVA
+
+## 1. Introduction
+
+The Library Management System is a software application developed using Java to manage the daily activities of a library efficiently. It helps librarians maintain book records, student details, book issuing and returning information.
+
+In a traditional library system, maintaining records manually takes more time and may lead to errors. This project provides a computerized solution that makes library operations easier, faster and more organized.
+
+The application uses **Java Swing** for the graphical user interface and **SQLite** for storing data.
+
+## 2. Problem Statement
+
+Traditional library management involves maintaining books, student information and issue records manually. This process can result in data duplication, record loss, calculation errors and difficulty in tracking issued books.
+
+Therefore, a computerized Library Management System is required to simplify library activities and maintain accurate records.
+
+## 3. Objectives
+
+- To develop an easy-to-use library management application.
+- To maintain book details digitally.
+- To store and manage student information.
+- To simplify book issuing and returning.
+- To track available and issued books.
+- To reduce manual work and paperwork.
+- To provide accurate and organized library records.
+
+## 4. Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Java | Application development |
+| Java Swing | Graphical user interface |
+| JDBC | Database connectivity |
+| SQLite | Database management |
+| Maven | Project dependency and build management |
+| HTML, CSS, JavaScript | Website prototype |
+
+## 5. System Requirements
+
+### Hardware Requirements
+- Processor: Intel i3 or above
+- RAM: Minimum 4 GB
+- Hard Disk: Minimum 500 MB free space
+- Keyboard and mouse
+- Monitor
+
+### Software Requirements
+- Operating System: Windows / Linux / macOS
+- JDK: Version 17 or above
+- Apache Maven
+- IDE: IntelliJ IDEA / Eclipse / VS Code
+- SQLite database
+
+## 6. System Modules
+
+### 6.1 Dashboard Module
+The dashboard displays the overall information about the library.
+
+It displays:
+- Total Books
+- Registered Students
+- Currently Issued Books
+- Available Books
+
+### 6.2 Book Management Module
+This module manages book information.
+
+Functions:
+- Add new books.
+- View all books.
+- Update book details.
+- Delete book records.
+- Search books by title or author.
+
+### 6.3 Student Management Module
+This module maintains student information.
+
+Functions:
+- Register new students.
+- View student details.
+- Update student information.
+- Delete student records.
+- Search students.
+
+### 6.4 Issue Book Module
+This module is used to issue books to registered students.
+
+Steps:
+1. Select a student.
+2. Select a book.
+3. Check book availability.
+4. Enter the issue date and due date.
+5. Save the issue record.
+6. Update the available book count.
+
+### 6.5 Return Book Module
+This module manages the return of issued books.
+
+Steps:
+1. Select the issued book record.
+2. Verify the issue details.
+3. Record the return date.
+4. Update the issue status.
+5. Increase the available book count.
+
+### 6.6 Search Module
+This module allows users to search for books and student records quickly using relevant details.
+
+## 7. System Architecture
+
+The application follows a simple three-layer structure.
+
+**1. Presentation Layer:** Java Swing provides the user interface.
+
+**2. Application Logic Layer:** Java handles book management, student management, issuing and returning operations.
+
+**3. Database Layer:** SQLite stores books, students and issue records. JDBC connects Java to SQLite.
+
+## 8. Database Design
+
+The system uses three main database tables.
+
+### 8.1 Books Table
+
+| Field | Description |
+|---|---|
+| book_id | Unique book ID |
+| title | Book title |
+| author | Author name |
+| category | Book category |
+| quantity | Total copies |
+| available | Available copies |
+
+### 8.2 Students Table
+
+| Field | Description |
+|---|---|
+| student_id | Unique student ID |
+| name | Student name |
