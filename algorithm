@@ -1,0 +1,58 @@
+Algorithm for Library Management System Using Java
+Project Title: Library Management System
+
+Objective: To develop a system that manages books, students, book issuing and returning, and displays library information through a dashboard.
+1. Main Algorithm
+Step 1: Start the application.
+
+Step 2: Connect to the database (SQLite).
+
+Step 3: Create the required database tables:
+- Books
+- Students
+- Issues and Returns
+Step 4: Display the Library Management System dashboard.
+
+Step 5: Display the following information:
+- Total number of books.
+- Total registered students.
+- Number of books currently issued.
+- Number of available books.
+Step 6: Display the menu options:
+1. Dashboard
+2. Book Management
+3. Student Management
+4. Issue Book
+5. Return Book
+6. Search Book
+7. Exit
+Step 7: Perform the selected operation.
+
+Step 8: If the user selects Book Management:
+- Enter book details.
+- Add, update, delete or search books.
+- Save changes in the database.
+Step 9: If the user selects Student Management:
+- Enter student details.
+- Register, update or delete student information.
+- Save changes in the database.
+Step 10: If the user selects Issue Book:
+- Enter book ID and student ID.
+- Check book availability.
+- If available, issue the book.
+- Decrease the available book count.
+- Store issue date and due date.
+- Otherwise, display "Book Not Available".
+Step 11: If the user selects Return Book:
+- Enter the issue ID.
+- Check the issue status.
+- Update the return date.
+- Change the status to returned.
+- Increase the available book count.
+Step 12: Refresh the dashboard with updated information.
+
+Step 13: Repeat the operations until the user selects Exit.
+
+Step 14: Close the database connection.
+
+Step 15: Stop the application.
